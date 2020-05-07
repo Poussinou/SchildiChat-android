@@ -60,6 +60,7 @@ import im.vector.riotx.features.settings.VectorSettingsActivity
 import im.vector.riotx.features.settings.devices.DeviceVerificationInfoBottomSheet
 import im.vector.riotx.features.share.IncomingShareActivity
 import im.vector.riotx.features.signout.soft.SoftLogoutActivity
+import im.vector.riotx.features.terms.ReviewTermsActivity
 import im.vector.riotx.features.ui.UiStateRepository
 
 @Component(
@@ -116,6 +117,7 @@ interface ScreenComponent {
     fun inject(activity: DebugMenuActivity)
     fun inject(activity: SharedSecureStorageActivity)
     fun inject(activity: BigImageViewerActivity)
+    fun inject(activity: ReviewTermsActivity)
 
     /* ==========================================================================================
      * BottomSheets
