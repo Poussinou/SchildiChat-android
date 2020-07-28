@@ -48,12 +48,12 @@ Bots and Widgets have access to the messages and files in rooms in which they p
 ## Forgetting your Data
 
 The app developer has no control over the data stored on your homeserver.
-You may wish to request to your homeserver operator to forget your data if you deactivate your account.
-Each user in a Matrix conversation receives their own copy of all messages and files in that conversation (similar to email), so the homeserver operator might ensure data is forgotten by ensuring that your data is not shared further and is not visible to future users - please refer to the privacy policy of your homeserver for details.
+You may wish to request your homeserver operator to forget your data if you deactivate your account.
+Each user in a Matrix conversation receives their own copy of all messages and files in that conversation (similar to email), so the homeserver operator might ensure data is forgotten by ensuring that your data is not shared further and is not visible to future users – please refer to the privacy policy of your homeserver for details.
 In case you use the matrix.org homeserver, you can find their privacy policy [here](https://matrix.org/legal/privacy-notice).
 
 If you remove (redact) a message, the message content will no longer be accessible to users.
-Redactions only remove message content, your display name and avatar - your username will still be visible. Federated homeservers and some matrix clients may not honour the redaction request.
+Redactions only remove message content, your display name and avatar – your username will still be visible. Federated homeservers and some matrix clients may not honour the redaction request.
 
 
 ## Commitment to Children's Privacy
